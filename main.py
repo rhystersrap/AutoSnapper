@@ -21,14 +21,14 @@ printScore()
 
 print("Press ENTER to start...")
 keyboard.wait('enter')
-snapsSent = 0
-count = 0
+snapsSent = 100
+count = 100
 
 root = tk.Tk()
 root.title("Snaps Sent")
 
 while True:
-    username = ""  # Enter Username here
+    username = ""  # Belle<3
     if keyboard.is_pressed('delete'):
         break
     pyautogui.moveTo(993, 485, duration=0.0)
